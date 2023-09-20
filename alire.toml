@@ -1,0 +1,13 @@
+name = "stm32f047vg_hal"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Yacine Lamri"]
+maintainers = ["Yacine Lamri <yacinelamri42@gmail.com>"]
+maintainers-logins = ["the-creator-of-random-programs"]
+
+executables = ["stm32f047vg_hal"]
+[[depends-on]]
+gnat_arm_elf = "^13.1.0"
+[[depends-on]]
+hal = "~0.3.0"
